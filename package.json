@@ -1,8 +1,8 @@
 {
     "name": "ceditor",
     "version": "1.0.0",
-    "description": "A new React project",
-    "author": "席铭",
+    "description": "ceditor",
+    "author": "",
     "main": "./dist/ceditor.js",
     "scripts": {
         "i": "SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ npm install --registry=https://registry.npm.taobao.org",
@@ -11,11 +11,8 @@
         "buildlib": "webpack --config webpack.build.lib.config.js"
     },
     "keywords": [],
-    "author": "",
     "license": "ISC",
     "devDependencies": {
-        "react": "15.4.2",
-        "react-dom": "15.4.2",
         "autoprefixer": "6.x",
         "babel-core": "6.x",
         "babel-eslint": "6.x",
@@ -43,6 +40,8 @@
         "postcss-position": "^0.5.0",
         "postcss-size": "^1.1.1",
         "rabjs": "^1.0.4",
+        "react": "15.4.2",
+        "react-dom": "15.4.2",
         "react-hot-loader": "^3.0.0-beta.6",
         "sass-loader": "^4.1.1",
         "style-loader": "^0.13.1",
@@ -53,5 +52,10 @@
     "engines": {
         "node": ">= 5.0.0",
         "npm": ">= 3.0.0"
+    },
+    "dependencies": {
+        "codemirror": "^5.25.0",
+        "mobx": "^3.1.9",
+        "mobx-react": "^4.1.8"
     }
 }

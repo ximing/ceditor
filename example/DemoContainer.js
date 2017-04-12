@@ -3,10 +3,14 @@
  */
 'use strict';
 import React, {Component} from "react";
+import CEditor from '../src/index.js';
+
 export default class DemoContainer extends Component{
     render(){
         return (
-            <div>demo</div>
+            <div>
+                <CEditor/>
+            </div>
         )
     }
 }
