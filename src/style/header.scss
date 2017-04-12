@@ -1,0 +1,10 @@
+$cEditorHeight:50px;
+.ceditor-header{
+    height:$cEditorHeight;
+    box-sizing:border-box;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    border-bottom:1px solid #eee;
+}
