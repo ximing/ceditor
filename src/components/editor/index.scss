@@ -1,4 +1,4 @@
-.ceditor-codemirror-container{
+.content-container{
     background-color: rgb(255, 255, 255);
     &::selection{
       background: rgba(130, 182, 255,.4);
@@ -10,14 +10,24 @@
     //left: 0;
     width: 830px;
     margin: 0 auto;
+    margin-bottom: 30px;
     border: 0;
     padding: 0;
-    margin-bottom: 60px;
     min-height: 100%;
     height:  auto;
+    display: flex;
+    flex-direction: column;
     .CodeMirror {
-        min-height:100%;
-        height:auto;
         border: 1px solid #eee;
+        min-height: 100%;
+        height:  auto;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .CodeMirror-scroll{
+            min-height:100%;
+            width: 100%;
+            flex: 1;
+        }
     }
 }
