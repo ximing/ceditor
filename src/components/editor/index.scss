@@ -29,5 +29,9 @@
             width: 100%;
             flex: 1;
         }
+        .CodeMirror-gutters{
+            background-color: #FFFFFF;
+            //padding-right: 5px;
+        }
     }
 }

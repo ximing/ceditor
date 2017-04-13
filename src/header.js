@@ -1,5 +1,7 @@
 'use strict';
 import React,{Component} from 'react';
+import Toolbar from './toolbar';
+
 export default class CEditor extends Component{
     static defaultProps =  {
         rightContent:null,
@@ -35,6 +37,7 @@ export default class CEditor extends Component{
                     {this.props.rightContent}
                 </div>
                 <div className="editor-toolbar" id="toolbar">
+                    <Toolbar/>
                 </div>
             </header>
         )
