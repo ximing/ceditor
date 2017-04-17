@@ -11,3 +11,9 @@ npm run builddemo
 ```apple js
 npm run buildlib
 ```
+### todo
+* 从本地打开
+* 切换主题
+* 切换语言
+* 多人光标
+* 
